@@ -1,0 +1,6 @@
+2021-08-29 13:41:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM CATEGORY PRODUCT CATEGORY[*]"; SQL statement:
+SELECT * FROM CATEGORY PRODUCT CATEGORY [42000-200]
+2021-08-29 21:26:47 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSER[*] INTO USER_ROLE(USER_ID, ROLE_ID) VALUES (1,1),(1,2)"; expected "INSERT"; SQL statement:
+inser into user_role(user_id, role_id) values (1,1),(1,2) [42001-200]
